@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutan Vidya Mandir</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* This allows positioning the text above the box */
+        }
+
+        h1, h2 {
+            color: black;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 10px; /* Space between the title and the next line */
+        }
+
+        h2 {
+            margin-bottom: 20px; /* Space between Nutan Vidya Mandir and the black box */
+        }
+
+        .outer-border {
+            border: 5px solid black;
+            width: 90%; /* Adjust the width of the box */
+            height: 85vh; /* Adjust the height of the box to fill the page */
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .inner-border {
+            border: 5px solid red;
+            width: 95%;
+            height: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        p.message {
+            font-size: 1em;
+            line-height: 1.5;
+            margin-top: 40px; /* Shifted the message below the red line */
+            padding: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Nutan Vidya Mandir</h1> <!-- Positioned above the black border -->
+    <h2>Dilshad Garden, Delhi-110093</h2> <!-- Positioned below Nutan Vidya Mandir -->
+    
+    <div class="outer-border">
+        <div class="inner-border">
+            <p class="message">
+                Dear parents,<br>
+                The parent-teacher meeting hosted on <b>25th January 2025</b> is cancelled due to some urgent piece of work in school regarding Independence Day.<br>
+                The PTM will be rescheduled to <b>1st February 2025</b>.<br>
+                Thank you.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
